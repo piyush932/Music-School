@@ -97,7 +97,7 @@ export const WavyBackground = ({
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div
